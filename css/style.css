@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Merriweather", serif;
+}
+.navbar {
+  background-color: rgb(113, 60, 162);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 120px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.logo {
+  color: white;
+  font-weight: 800;
+}
+
+.nav-link a {
+  color: white;
+  text-decoration: none;
+  margin-right: 18px;
+  font-size: 20px;
+}
+
+.btn-primary {
+  background-color: transparent;
+  border: 1px solid rgb(0, 0, 0);
+  padding: 10px 15px;
+  color: white;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.btn-primary:hover {
+  background-color: #773fad;
+  color: white;
+  transition: 0.3s;
+}
+
+#banner-container {
+  background: linear-gradient(
+      0deg,
+      rgb(9, 9, 9) 2.884%,
+      rgba(16, 16, 16, 0) 101.034%
+    ),
+    url(../images/Banner\ Image.png);
+  width: 1320px;
+  height: 600px;
+  border-radius: 16px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-content .sub-title {
+  color: rgb(255, 255, 255);
+  font-family: Merriweather;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.banner-content .title {
+  color: rgb(255, 255, 255);
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 95px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.text-content .off-title {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 85px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 120px;
+  margin-bottom: 48px;
+}
+
+.text-content .holiday {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.text-content .catagories {
+  color: rgb(7, 2, 17);
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.text-content img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 120px;
+}
+
+.midnight-party-container {
+  border-radius: 16px;
+  width: 1320px;
+  height: 600px;
+  background: linear-gradient(90deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%),
+    url(../images/Vectorrr.png);
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.midnight-content .title {
+  color: rgb(255, 255, 255);
+  font-family: Merriweather;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 11%;
+  text-align: left;
+  margin: 126px 0 24px 126px;
+}
+
+.midnight-content .sub-title {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-left: 126px;
+  margin-right: 40px;
+  margin-bottom: 48px;
+}
+
+.midnight-content .btn-join {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-left: 158px;
+}
+
+.vanue-content {
+  border-radius: 16px;
+  width: 1320px;
+  height: 482px;
+  margin: 0 auto;
+  margin-top: 220px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1),
+    rgba(255, 0, 0, 0) 100%
+  );
+}
+
+.place-date-time h4 {
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+  padding-top: 100px;
+  margin-bottom: 48px;
+}
+
+.place-date-time .color-red {
+  color: red;
+}
+
+.vanue-content .btn-join-now {
+  border-radius: 8px;
+  padding: 16px 32px 16px 32px;
+  border: none;
+  background: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 575px 0 575px;
+  cursor: pointer;
+}
+
+.vanue-content .btn-join-now:hover {
+  color: black;
+  transition: 0.3s;
+}
+/* .midnight-party-container img {
+  background-repeat: no-repeat;
+} */
