@@ -174,6 +174,10 @@ body {
   margin-left: 158px;
 }
 
+.midnight-party-container .img-2024 {
+  margin: 65px 138px 65px 0;
+}
+
 .vanue-content {
   border-radius: 16px;
   width: 1320px;
@@ -224,6 +228,119 @@ body {
   color: black;
   transition: 0.3s;
 }
-/* .midnight-party-container img {
-  background-repeat: no-repeat;
-} */
+
+.comming-soon {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1320px;
+  height: 462px;
+  margin: 0 auto;
+}
+
+.comming-soon .content-left {
+  margin-top: 90px;
+}
+
+.content-left .left-subtitle {
+  color: #f00;
+  text-align: left;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 16px;
+}
+
+.content-left .left-title {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-bottom: 22px;
+}
+
+.content-left .left-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
+
+.content-center {
+  border-radius: 463px;
+  border: 10px solid #f00;
+  margin: 120px 118px 120px 70px;
+  padding: 40px;
+}
+
+.content-right .right-title {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 16px;
+  margin-top: 232px;
+}
+
+.content-right .right-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+  margin-bottom: 46px;
+}
+
+.holiday-sales {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 140px 0 140px;
+}
+
+.holiday-subtitle {
+  color: rgb(7, 2, 17);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 122px;
+  margin-bottom: 16px;
+}
+
+.holiday-title {
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 91px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.holiday-title .off {
+  color: red;
+}
+
+.holiday-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin: 0 266px 0 266px;
+}
