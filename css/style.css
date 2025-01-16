@@ -411,3 +411,140 @@ body {
   margin-bottom: 48px;
   margin-right: 350px;
 }
+
+.newslatter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1320px;
+  height: 616px;
+  border-radius: 16px;
+  margin: 0 auto;
+  margin-top: 120px;
+  background-color: rgba(255, 0, 0, 0.05);
+  margin-bottom: 120px;
+}
+
+.news-content {
+  width: 896px;
+  height: 336px;
+  margin-top: -100px;
+}
+
+.news-content img {
+  width: 150px;
+  height: 150px;
+  margin-left: 373px;
+  margin-bottom: 40px;
+}
+
+.news-content .title {
+  color: rgb(7, 2, 17);
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 22px;
+}
+
+.news-content .sub-title {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.news-content .input-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+}
+
+.news-content .input-button input {
+  border: none;
+  padding: 29px 0;
+  padding-left: 20px;
+  background-color: white;
+  border-radius: 50px 0 0 50px;
+  width: 515px;
+}
+::placeholder {
+  color: rgba(7, 2, 17, 0.3);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+}
+.news-content .input-button .subscribe {
+  padding: 25px 0;
+  background-color: red;
+  color: white;
+  border: none;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-radius: 0 50px 50px 0;
+  width: 150px;
+
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.news-content .input-button .subscribe:hover {
+  background-color: rgb(255, 16, 16);
+  color: black;
+  transition: 0.3s;
+}
+
+footer {
+  width: 100%;
+  height: 609px;
+  background-color: black;
+}
+.footer-flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 120px;
+}
+
+.footer-flex .left-side {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.footer-flex .right-side {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.right-side img {
+  width: 24px;
+  height: 24px;
+  padding-right: 10px;
+}
